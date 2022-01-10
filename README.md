@@ -1,11 +1,11 @@
 # a simple converter with five options
 
-This quick and simple converter allows you to choose between five different options - Farenheit, Celcius, feet, inches and Centimeters. 
+The converter allows you to choose between five different options - Farenheit, Celcius, feet, inches and Centimeters. 
 
-# You can only type in numbers, a negative number and an apostrophe in case you are calculating in inches. 
+You can only type in numbers, a negative number and an apostrophe in case you are calculating in inches.The resulting digit will allow only floats up to 2 digits. 
 In case you type in just a minus or an apostrophe as a first symbol, the process will not go further and the text will change. 
 
-# You can type the amount once and then switch between options. By default the amount is set to zero, and some measurements will already show in the result, (like Farenheit to Celcius) just because...that's how science works. 
+You can type the amount once and then switch between options. By default the amount is set to zero, and some measurements will already show in the result, (like Farenheit to Celcius) just because...that's how science works. 
 The clear button clears the display. 
 If you want to reset the option too, the app should be reloaded. 
 
