@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# a simple converter with five options
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This quick and simple converter allows you to choose between five different options - Farenheit, Celcius, feet, inches and Centimeters. 
 
-## Available Scripts
+# You can only type in numbers, a negative number and an apostrophe in case you are calculating in inches. 
+In case you type in just a minus or an apostrophe as a first symbol, the process will not go further and the text will change. 
 
-In the project directory, you can run:
+# You can type the amount once and then switch between options. By default the amount is set to zero, and some measurements will already show in the result, (like Farenheit to Celcius) just because...that's how science works. 
+The clear button clears the display. 
+If you want to reset the option too, the app should be reloaded. 
 
-### `npm start`
+# The code has been written using ES6 and React hooks for a simple state management, and I split it in just a few components and two validators (one utilizing regEx) for the input and output validation. 
+As for the CSS, I used the amazing Glassmorphism calculator article https://www.codinglabweb.com/2021/02/how-to-make-calculator-using-html-css.html as a base and added a few tweaks from myself, including the Select element from the 'react-select' library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In general, this is the first code I created off the top of my head and I guess it's not perfect, but it works ;) 
